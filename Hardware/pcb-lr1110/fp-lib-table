@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name lr1110-lib)(type KiCad)(uri ${KIPRJMOD}/libs/lr1110-lib.pretty)(options "")(descr ""))
+  (lib (name node-lib-v1)(type KiCad)(uri C:/Users/orkha/OneDrive/TTI_Files/Generic_Node_SE/Hardware/libs/node-lib-v1.pretty)(options "")(descr ""))
+)

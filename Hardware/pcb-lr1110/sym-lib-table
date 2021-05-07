@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name pcb-LR1110-rescue)(type Legacy)(uri ${KIPRJMOD}//pcb-LR1110-rescue.lib)(options "")(descr ""))
+  (lib (name lr1110-lib)(type Legacy)(uri ${KIPRJMOD}/../libs/lr1110-lib.lib)(options "")(descr ""))
+  (lib (name node-lib-v1)(type Legacy)(uri ${KIPRJMOD}/../libs/libs/node-lib-v1.lib)(options "")(descr ""))
+)
