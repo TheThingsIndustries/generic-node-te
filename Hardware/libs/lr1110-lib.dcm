@@ -1,0 +1,103 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BGA524N6
+D RF Amplifier RF GNSS, +19.6 dB MMIC SUB 3 GHZ, 1.5 V to 3.3 V
+K RF GAIN GNSS, Amplifier
+F https://www.infineon.com/dgdl/Infineon-BGA524N6-DS-v03_00-en.pdf?fileId=db3a304344e406b50144e44dfad302b9
+$ENDCMP
+#
+$CMP FM-B2020RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LD39130SPUR
+D LDO Voltage Regulators Linear Voltage Regulators & Vref
+F https://componentsearchengine.com/Datasheets/1/LD39130SPUR.pdf
+$ENDCMP
+#
+$CMP LED_RGB
+D RGB LED, 6 pin package
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LIS2DH12
+D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface
+K 3-axis accelerometer spi mems
+F https://www.st.com/resource/en/datasheet/lis2dh12.pdf
+$ENDCMP
+#
+$CMP LR1110IMLTRT
+D RF LONG RANGE WI-FI LOC LORA TRANSCEIVER, 150MHz to 960MHz, 150MHz to 2700MHz, QFN-32
+K LORA GNSS WIFI QFN32
+F https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R000000Q2YY/7hyal8gUewWREN8DSEk5R3Ee8OpqEuVOdsHpiAHb3jo
+$ENDCMP
+#
+$CMP MX25R1635
+D SOP8 150/200mil
+K Flash,Serial
+$ENDCMP
+#
+$CMP NN03-310
+D TRIO mXTEND NN03-310
+K antenna, tri-band
+F ~
+$ENDCMP
+#
+$CMP RP605Zx
+D Ultra-low power DC/DC converter with a Battery Monitor (BM) 300mA
+K buck-boost
+F Texas Instruments
+$ENDCMP
+#
+$CMP SKY13588-460LF
+D RF Switch IC&apos;s .1-6GHz SP3T IL .45dB -40C +105C, QFN-12
+K rf switch sp4t absorptive
+F https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2201-2300/SKY13588_460LF_203512D.pdf
+$ENDCMP
+#
+$CMP STM32L073CZUx
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO
+K ARM Cortex-M0+ STM32L0 STM32L0x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
+$ENDCMP
+#
+$CMP TCXO-xxxMHz
+D 3.3V CMOS SMD Crystal Clock Oscillator, Abracon
+K 3.3V CMOS SMD Crystal Clock Oscillator
+F http://www.abracon.com/Oscillators/ASV.pdf
+$ENDCMP
+#
+$CMP TPS62840
+D 750mA Step-Down Converter with DCS-Control, adjustable output, 60 nA ultra-low operating quiescent 1.8-6.5V input voltage, SON-8
+K step-down dc-dc buck regulator ultra-low operating quiescent
+F https://www.ti.com/lit/gpn/TPS62840
+$ENDCMP
+#
+$CMP TPS62840DLC
+D 1.8 V to 3.3 V in 100-mV steps - 750mA Step-Down Converter with DCS-Control, adjustable output, 60 nA ultra-low operating quiescent 1.8-6.5V input voltage, SON-8
+K step-down dc-dc buck regulator ultra-low operating quiescent
+F https://www.ti.com/lit/gpn/TPS62840
+$ENDCMP
+#
+$CMP TPS62841DLC
+D 0.8 V to 1.55 V in 50mV steps -  750mA Step-Down Converter with DCS-Control, adjustable output, 60 nA ultra-low operating quiescent 1.8-6.5V input voltage, SON-8
+K step-down dc-dc buck regulator
+F https://www.ti.com/lit/gpn/TPS62840
+$ENDCMP
+#
+$CMP TPS62849DLC
+D 3.4-V fixed output voltage - 750mA Step-Down Converter with DCS-Control, adjustable output, 60 nA ultra-low operating quiescent 1.8-6.5V input voltage, SON-8
+K step-down dc-dc buck regulator
+F https://www.ti.com/lit/gpn/TPS62840
+$ENDCMP
+#
+$CMP TS3A5223RSWR
+D Dual SPDT 0.45Ω Bidirectional Analog Switch, 10-UQFN
+K switch analog SPDT
+F https://www.ti.com/lit/ds/symlink/ts3a5223.pdf
+$ENDCMP
+#
+#End Doc Library
