@@ -95,7 +95,7 @@
 /*!
  * \brief Use or not the LoRaWAN production Keys
  */
-#define USE_PRODUCTION_KEYS 0
+#define USE_PRODUCTION_KEYS 1
 
 /*
  * -----------------------------------------------------------------------------
