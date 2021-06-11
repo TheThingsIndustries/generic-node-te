@@ -34,10 +34,14 @@ The modem executes a Wi-Fi scan periodically according to the Wi-Fi settings def
 - [LORAWAN](./Src/apps/LoRaWAN) is a simple LoRaWAN Class A application 868/915 MHz
 The app joins automatically the LoRa Network server then sends uplinks periodically with the interval defined by APP_TX_DUTYCYCLE.
 
+> By default, the application uses Semtech Join Server, and LR1110 modem production keys.
+
 - [Tracker](./Src/apps/Tracker) is a simple Tracker example
 The app joins automatically the network then periodically performs a clock sync, a Wi-Fi Scan
 and a GNSS scan and stream the scan results.
 
-> Please note that you can use the Semtech Join Server keys derivation algorithm by updating the `USE_SEMTECH_JOIN_SERVER` flag in the [LoRaWAN](./Src/apps/LoRaWAN/Commissioning.h) and [Tracker](./Src/apps/Tracker/Commissioning_tracker.h) applications.
+> By default, the application uses Semtech Join Server, and LR1110 modem production keys.
 
-> Also, to use the LR1110 modem production keys : update the `USE_PRODUCTION_KEYS` flag in [LoRaWAN](./Src/apps/LoRaWAN/main_lorawan.c) and [Tracker](./Src/apps/Tracker/main_tracker.c) applications.
+> Please note that by default the applications use the Semtech Join Server keys derivation algorithm by updating the `USE_SEMTECH_JOIN_SERVER` flag in the [LoRaWAN](./Src/apps/LoRaWAN/Commissioning.h) and [Tracker](./Src/apps/Tracker/Commissioning_tracker.h) applications.
+
+> Also, by default we use the LR1110 modem production keys : update the `USE_PRODUCTION_KEYS` flag in [LoRaWAN](./Src/apps/LoRaWAN/main_lorawan.c) and [Tracker](./Src/apps/Tracker/main_tracker.c) applications.
