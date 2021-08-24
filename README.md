@@ -20,6 +20,8 @@ The [Software](./Software) featured in this repository is a fork of Semtech [lr1
 
 ## Legal
 
-Copyright © 2021 The Things Industries B.V.
+[Generic Node license terms and conditions](./LICENSE.md) apply.
 
 [Contact The Things Industries](https://thethingsindustries.com/contact/) for licensing.
+
+Copyright © 2021 The Things Industries B.V.
